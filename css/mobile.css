@@ -212,6 +212,8 @@ header{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     margin: auto;
+    justify-items: center;
+
 }
 
 .image-container {
@@ -249,8 +251,11 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
+
+
 
 .cs-left h2 {
     font-size: 25px;
