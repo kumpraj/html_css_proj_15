@@ -10,13 +10,22 @@ header{
 
 .container nav {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     
 }
 
+.nav-logo {
+    margin: auto;
+
+}
+
 .nav-logo img {
+    
+    /* display: block; */
     width: 70px;
     margin: auto;
+    
 }
 
 .nav-list ul {
@@ -25,12 +34,19 @@ header{
     justify-content: space-around;
     gap:10px;
     list-style-type: none;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.nav-list ul li {
+    margin: auto;
 }
 
 .nav-list ul li a {
     text-decoration: none;
     color: #ffffff;
     font-size: 10px;
+    margin: auto;
 }
 
 /* hero-sec */
@@ -49,7 +65,7 @@ header{
 
 
 .hero-left img {
-    width: 350px;
+    width: 320px;
     
 }
 
@@ -60,16 +76,17 @@ header{
     align-items: center;
     padding: 0 10px;
     margin: auto;
+    flex-wrap: wrap;
 }
 
 .highlight {
     color: var(--my-red);
-    font-size: 20px;
+    font-size: 18px;
     
 }
 
 .hero-right h1 {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 10px;
 }
 
@@ -198,13 +215,15 @@ header{
 }
 
 .image-container {
-    width: 400px;
-    height: 270px;
-    padding: 30px 25px;
+    width: 320px;
+    height: 210px;
+    padding: 25px 20px;
+    
 }
 
 .image-container img {
-    width: 350px;
+    width: 280px;
+    margin: auto;
 }
 
 .detail {
@@ -214,6 +233,10 @@ header{
 .detail h6 {
     font-size: medium;
     font-weight: 900;
+}
+
+.project-3 .image-container img {
+    height:160px;
 }
 
 /* contact-section  */
@@ -230,15 +253,15 @@ header{
 }
 
 .cs-left h2 {
-    font-size: 30px;
+    font-size: 25px;
     line-height: 1.2;
     text-align: center;
 }
 
 .cs-left p {
-    font-size: 14px;
+    width: 300px;
+    font-size: 12px;
     text-align: center;
-    width: 400px;
     margin: auto;
 
 }
